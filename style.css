@@ -158,7 +158,7 @@ html{
     background-position: center center;
     padding-top: 20px;
     padding-bottom: 30px;
-    height: 50vh;
+    height: 30vh;
     display:flex;
     justify-content:center;
     align-items: center;
@@ -238,8 +238,9 @@ html{
     height:60  vh;
 }
 #subscription{
+    margin-top: 4vh;
     height:100vh;
-    background-image: url(bg3.png);
+    background-image: url(BGComment.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -307,7 +308,7 @@ html{
     background-color: #F7F8F7;
 }
 #blogs{
-    margin-top: 150px;
+    margin-top: 40px;
 }
 #blogs h1{
     font-size: 49px;
