@@ -1,0 +1,447 @@
+body{
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+#header{
+    height:100vh;
+    width:100vw;
+    background-image:url(BurgerWallpaper.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#header:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.4);
+    z-index: 1;
+}
+.nav{
+    height:10vh;
+    width:auto;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    
+}
+.logo{
+    padding-left:50px;
+    margin-top: 10px;
+    z-index:2;
+}
+.navItems{
+    z-index:2;
+}
+.navItems ul{
+    list-style-type: none;
+   
+    
+}
+.navItems ul li{
+    float: left;
+    margin: 40px;
+    
+}
+.navItems ul li a {
+    display: block;
+    color:rgba(255,255,255,.5);
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+   
+  }
+  .navItems ul li a:hover {
+ 
+    color:white;
+    
+   
+  }
+.contact{
+    margin-top: 15px;
+    margin-right: 125px;
+    z-index:2;
+    
+}
+.Btn{
+    z-index: 2;
+}
+.arrow{
+    margin-top:125px;
+}
+
+.Btn button{
+    padding:10px;
+    border:2px solid #FF6014;
+    border-radius: 50px;
+    width:140px;
+    height:40px;
+    background-color: #FF6014;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    z-index:2;
+}
+
+.Btn button:hover{
+    background-color: transparent;
+}
+.mainHeader p{
+    font-size: 22px;
+    z-index: 2;
+    color: white;
+    font-family: 'Nunito', sans-serif; 
+    text-align: center;
+
+}
+.mainHeader h1{
+    z-index: 2;
+    color:white;
+    font-size: 85px;
+    font-family: 'Playfair Display', serif;
+    margin-top:-15px;
+    margin-bottom:-5px;
+}
+.mainHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:80vh;
+    z-index:2;
+    
+}
+#about{
+    height: 100vh;
+    width: 100vw;
+}
+.aboutMain{
+    padding-top:60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.aboutLeft{
+    margin-right: 50px;
+}
+.aboutLeft h1{
+    font-size: 49px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.aboutLeft p{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+#gallery{
+    width:100vw;
+    height:130vh;
+}
+.galleryHeader{
+    background-image:url(bg1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    height: 50vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.galleryHeader h1{
+    font-size: 49px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    margin-top: -15px;
+}
+.galleryHeader p{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.galList ul{
+    list-style-type: none;
+}
+.galList ul li{
+    float: left;
+    margin-right:65px;
+}
+.galList ul li button{
+    width: 100px;
+    background-color: #FF6014;
+    color: white;
+    border: none;
+    padding: 8px 15px 8px 15px;
+    font-size:16px;
+    font-family: 'Poppins', sans-serif;
+}
+.galList ul li button:hover{
+   
+    background-color:white;
+    color: #FF6014;
+    border: 1px solid #FF6014;
+    
+}
+.gallery{
+   
+    margin: 0;
+    padding: 0;
+    height:80vh;
+    width: 100vw;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+    
+
+}
+.g1{
+    margin-left: -320px;
+    width:50vw;
+}
+.g2{
+    
+    width:30vw;
+    margin-left: -100px;
+}
+.g3{
+    width:20vw;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+.g31{
+    height: 60vh;
+    margin-top: 0px;
+    margin-bottom:-20px;
+}
+.g32{
+   margin-top:-100px;
+    height:60  vh;
+}
+#subscription{
+    height:100vh;
+    background-image: url(bg3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.submain{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+}
+.subleft{
+    width:50vw;
+}
+
+#footer{
+    position: relative;
+    margin-top: -50px;
+    height:50vh;
+    background-image: url(bg4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.blog1{
+    height:80vh;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction:row;
+}
+.bpost{
+    width:400px;
+    height:500px;
+    border-radius:10px;
+    position: relative;
+}
+.post1{
+    background-image: url(burgerLatestBlog.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.post2{
+    background-image: url(burgerLatestBlog2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.post3{
+    background-image: url(burgerLatestBlog3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.posthead{
+    position: absolute;
+    bottom: -40px;
+    left: 50px;
+    height: 150px;
+    width:350px;
+    border-radius: 10px;
+    background-color: #F7F8F7;
+}
+#blogs{
+    margin-top: 150px;
+}
+#blogs h1{
+    font-size: 49px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    
+}
+.posthead p{
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+.posthead h6{
+    padding-left: 15px;
+    margin-top: -10px;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.rhead p{
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+.rhead h6{
+    padding-left: 15px;
+    margin-top: -10px;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.blog2{
+    height:80vh;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction:row;
+}
+.rpost{
+    width:400px;
+    height:500px;
+    border-radius:10px;
+    position: relative;
+}
+.r1{
+    background-image: url(b1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.r2{
+    background-image: url(b2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.r3{
+    background-image: url(b3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.rhead{
+    position: absolute;
+    bottom: -40px;
+    left: 50px;
+    height: 150px;
+    width:350px;
+    border-radius: 10px;
+    background-color: #F7F8F7;
+}
+.submain h1{
+    font-size: 49px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.submain p{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+.submain input {
+    border: none;
+    width: 300px;
+    height: 50px;
+}
+input::placeholder{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+.submain button{
+    height:50px;
+    background-color:  #FF6014;
+    color: #FFFFFF;
+    width: 150px;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid #FF6014;
+}
+.footerMain{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: top;
+    flex-direction: row;
+}
+.footerMain p{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.footerMain a{
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+.nav2 ul{
+    list-style-type: none;
+   
+}
+.nav2 ul li a {
+    
+    color:white;
+    padding: 16px;
+    text-decoration: none;
+   
+  }
+
+  .copy{
+      position: absolute;
+      background-color: black;
+      bottom: 0;
+      color: lightgray;
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      width: 100vw;
+  }
